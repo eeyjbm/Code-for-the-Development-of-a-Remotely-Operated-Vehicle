@@ -1,0 +1,105 @@
+﻿<UserControl x:Class="ROV_Interface.Views.TelemetryViews.TelemetryPanelMainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ROV_Interface.Views.TelemetryViews"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             mc:Ignorable="d" 
+             d:DesignHeight="380" d:DesignWidth="201"  >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="3"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="3"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="3"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Fill="DimGray" Opacity="0.9" Grid.RowSpan="21"  Grid.ColumnSpan="5" RadiusX="5" RadiusY="5"/>
+
+        <TextBlock Text="ROV Telemetry" FontSize="24" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="2" />
+
+        <TextBlock Text="Depth (m)" FontSize="17" Foreground="White" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" />
+        <TextBlock Text="{Binding Depth}" FontSize="20" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center" Grid.Row="2" Grid.ColumnSpan="3" />
+
+        <TextBlock Text="Water Temperature" FontSize="17" Foreground="White" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" />
+        <TextBlock Text="{Binding Temperature}" FontSize="20" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center" Grid.Row="4" Grid.ColumnSpan="3" />
+        
+        <Rectangle Fill="White" Grid.Row="5" Height="2" Width="180 " Grid.ColumnSpan="3"/>
+        
+        <TextBlock Text="Pitch" Foreground="white" FontSize="17" Grid.Column="0" Grid.Row="7" HorizontalAlignment="Center"/>
+        <TextBlock Text="Roll" Foreground="white" FontSize="17"  Grid.Column="1" Grid.Row="7" HorizontalAlignment="Center"/>
+        <TextBlock Text="Yaw" Foreground="white" FontSize="17"  Grid.Column="2" Grid.Row="7" HorizontalAlignment="Center"/>
+
+        <TextBlock Text="{Binding Pitch}" Foreground="white" FontSize="20" FontWeight="Bold" Grid.Column="0" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Text="{Binding Roll}" Foreground="white" FontSize="20" FontWeight="Bold" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Text="{Binding Yaw}" Foreground="white" FontSize="20" FontWeight="Bold" Grid.Column="2" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        
+        <Rectangle Fill="White" Grid.Row="9" Height="2" Width="180 " Grid.ColumnSpan="3"/>
+
+        <TextBlock Text="Pan" Foreground="white" FontSize="17" Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
+        <TextBlock Text="Tilt" Foreground="white" FontSize="17"  Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
+
+        <TextBlock Text="{Binding ServoPan}" Foreground="white" FontSize="20" FontWeight="Bold" Grid.Column="0"  Grid.ColumnSpan="2" Grid.Row="12" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Text="{Binding ServoTilt}" Foreground="white" FontSize="20" FontWeight="Bold" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="12" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+        <Rectangle Fill="White" Grid.Row="13" Height="2" Width="180 " Grid.ColumnSpan="3"/>
+
+        <TextBlock Text="Battery" Foreground="white" FontSize="17" Grid.Column="0"  Grid.ColumnSpan="3" Grid.Row="15" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <StackPanel Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="16" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="{Binding Battery}" Foreground="white" FontSize="20" FontWeight="Bold" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="16" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Text=" V" Foreground="white" FontSize="20" FontWeight="Bold" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="16" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+        </StackPanel>
+
+        <StackPanel  Grid.Column="0"  Grid.ColumnSpan="3" Grid.Row="18" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock Text="Cell 1" Margin="0,0,5,0" Foreground="white" FontSize="12"   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Text="Cell 2" Margin="5,0,5,0" Foreground="white" FontSize="12"   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Text="Cell 3" Margin="5,0,5,0" Foreground="white" FontSize="12"   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Text="Cell 4" Margin="5,0,5,0" Foreground="white" FontSize="12"   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Text="Cell 5" Margin="5,0,0,0" Foreground="white" FontSize="12"   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </StackPanel>
+
+        <Grid Grid.Row="19" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+                
+            <TextBlock Text="{Binding Cell1}" Grid.Column="0" Foreground="white" FontSize="12" FontWeight="Bold"  HorizontalAlignment="Center" VerticalAlignment="Top" />
+            <TextBlock Text="{Binding Cell2}" Grid.Column="1" Foreground="white" FontSize="12" FontWeight="Bold"   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Text="{Binding Cell3}" Grid.Column="2" Foreground="white" FontSize="12" FontWeight="Bold"   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Text="{Binding Cell4}" Grid.Column="3" Foreground="white" FontSize="12" FontWeight="Bold"   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Text="{Binding Cell5}" Grid.Column="5" Foreground="white" FontSize="12" FontWeight="Bold"   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Grid>
+
+    </Grid>
+</UserControl>

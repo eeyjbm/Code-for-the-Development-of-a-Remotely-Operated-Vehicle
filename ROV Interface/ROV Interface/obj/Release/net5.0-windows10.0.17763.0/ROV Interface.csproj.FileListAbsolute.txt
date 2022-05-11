@@ -1,0 +1,30 @@
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Release\net5.0-windows10.0.17763.0\ROV Interface.exe
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Release\net5.0-windows10.0.17763.0\ROV Interface.deps.json
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Release\net5.0-windows10.0.17763.0\ROV Interface.runtimeconfig.json
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Release\net5.0-windows10.0.17763.0\ROV Interface.runtimeconfig.dev.json
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Release\net5.0-windows10.0.17763.0\ROV Interface.dll
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Release\net5.0-windows10.0.17763.0\ref\ROV Interface.dll
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Release\net5.0-windows10.0.17763.0\ROV Interface.pdb
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Release\net5.0-windows10.0.17763.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Release\net5.0-windows10.0.17763.0\WinRT.Runtime.dll
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface.csproj.AssemblyReference.cache
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\MainWindow.g.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\Views\TelemetryViews\TelemetryPanelMainView.g.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\Views\TelemetryViews\TelemetryPanelSubView1.g.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\App.g.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface_MarkupCompile.cache
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface_MarkupCompile.lref
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\MainWindow.baml
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\Views\TelemetryViews\TelemetryPanelMainView.baml
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\Views\TelemetryViews\TelemetryPanelSubView1.baml
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface.g.resources
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface.AssemblyInfoInputs.cache
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface.AssemblyInfo.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface.csproj.CoreCompileInputs.cache
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface.csproj.CopyComplete
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface.dll
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ref\ROV Interface.dll
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface.pdb
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Release\net5.0-windows10.0.17763.0\ROV Interface.genruntimeconfig.cache

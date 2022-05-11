@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "sqgEBNgkzI2xShOmgsIIfTWtJrpGkAiSxxBJHHkp+tcV1Dc9+9UL50FiEDyM8huV9K3pxeuKA81xz5mtNtvkyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jacob Monger\\OneDrive\\Desktop\\ROV Interface\\ROV Interface\\ROV Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jacob Monger\\.nuget\\packages\\giosharp\\3.22.25.74\\giosharp.3.22.25.74.nupkg.sha512",
+    "C:\\Users\\Jacob Monger\\.nuget\\packages\\glibsharp\\3.22.25.74\\glibsharp.3.22.25.74.nupkg.sha512",
+    "C:\\Users\\Jacob Monger\\.nuget\\packages\\gstreamer-sharp-netcore\\0.0.8\\gstreamer-sharp-netcore.0.0.8.nupkg.sha512",
+    "C:\\Users\\Jacob Monger\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\Jacob Monger\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\Jacob Monger\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.24\\microsoft.windows.sdk.net.ref.10.0.17763.24.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows10.0.17763'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        "net5.0-windows10.0.17763"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts.Wpf 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows10.0.17763'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        "net5.0-windows10.0.17763"
+      ]
+    }
+  ]
+}

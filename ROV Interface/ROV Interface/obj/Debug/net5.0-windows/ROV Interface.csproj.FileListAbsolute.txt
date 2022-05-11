@@ -1,0 +1,27 @@
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Debug\net5.0-windows\ROV Interface.exe
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Debug\net5.0-windows\ROV Interface.deps.json
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Debug\net5.0-windows\ROV Interface.runtimeconfig.json
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Debug\net5.0-windows\ROV Interface.runtimeconfig.dev.json
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Debug\net5.0-windows\ROV Interface.dll
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Debug\net5.0-windows\ref\ROV Interface.dll
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\bin\Debug\net5.0-windows\ROV Interface.pdb
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface.csproj.AssemblyReference.cache
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface_MarkupCompile.cache
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface_MarkupCompile.lref
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface.g.resources
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface.AssemblyInfoInputs.cache
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface.AssemblyInfo.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface.csproj.CoreCompileInputs.cache
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface.dll
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ref\ROV Interface.dll
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface.pdb
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\ROV Interface.genruntimeconfig.cache
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\Views\TelemetryViews\TelemetryPanelMainView.g.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\Views\TelemetryViews\TelemetryPanelSubView1.g.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\Views\TelemetryViews\TelemetryPanelMainView.baml
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows\Views\TelemetryViews\TelemetryPanelSubView1.baml

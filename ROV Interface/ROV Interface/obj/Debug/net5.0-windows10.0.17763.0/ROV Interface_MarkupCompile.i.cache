@@ -1,0 +1,20 @@
+﻿ROV Interface
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\obj\Debug\net5.0-windows10.0.17763.0\
+ROV_Interface
+none
+false
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+C:\Users\Jacob Monger\OneDrive\Desktop\ROV Interface\ROV Interface\App.xaml
+7-491064861
+
+33-1743006745
+2091409198025
+MainWindow.xaml;Views\SettingsViews\SettingsPanelMainView.xaml;Views\SettingsViews\SettingsPanelSubView1.xaml;Views\SettingsViews\SettingsPanelSubView2.xaml;Views\Stream1.xaml;Views\TelemetryViews\TelemetryPanelMainView.xaml;Views\TelemetryViews\TelemetryPanelSubView1.xaml;
+
+False
+

@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+     <TargetFramework>net5.0-windows10.0.17763.0</TargetFramework>
+    <RootNamespace>ROV_Interface</RootNamespace>
+	  <UseWPF>true</UseWPF>
+	  <UseWindowsForms>true</UseWindowsForms> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Media\compass_50px.png" />
+    <None Remove="Media\Controller_64.png" />
+    <None Remove="Media\icons8_laptop_64.png" />
+    <None Remove="Media\icons8_settings_64.png" />
+    <None Remove="Media\Reef.jfif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="gstreamer-sharp-netcore" Version="0.0.8" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Media\compass_50px.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Media\Controller_64.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Media\icons8_laptop_64.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Media\icons8_settings_64.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Media\Reef.jfif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
